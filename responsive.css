@@ -1,0 +1,15 @@
+/* RESPONSIVE FOR MOBILE DEVICE */
+@media screen and (max-width: 576px) {
+  /* nav section */
+  .header-nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav-content .nav-title {
+    font-size: 2rem;
+  }
+  .nav-menu ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
