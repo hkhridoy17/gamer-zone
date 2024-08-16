@@ -1,9 +1,16 @@
 /* RESPONSIVE FOR MOBILE DEVICE */
 @media screen and (max-width: 576px) {
+  /* common styles */
+  .btn-primary {
+    font-size: 0.875rem;
+    padding: 10px 20px;
+  }
+
   /* nav section */
   .header-nav {
     flex-direction: column;
     gap: 20px;
+    margin: 20px 0;
   }
   .nav-content .nav-title {
     font-size: 2rem;
@@ -11,5 +18,41 @@
   .nav-menu ul {
     flex-direction: column;
     gap: 10px;
+  }
+
+  /* banner section */
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+    box-shadow: none;
+  }
+  .banner-bg {
+    background-position: center;
+    margin: 0 10px;
+    padding: 20px;
+    justify-content: center;
+  }
+  .banner-content {
+    margin-left: 0px;
+  }
+  .banner-content h3 {
+    font-size: 1.5rem;
+  }
+  .banner-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .banner-content p {
+    font-size: 0.875rem;
+    margin-bottom: 5px;
+  }
+  .banner-btn {
+    margin-top: 16px;
+  }
+  .banner-image {
+    margin-right: 0px;
+  }
+  .banner-image img {
+    width: 70%;
   }
 }

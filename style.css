@@ -4,9 +4,39 @@
   padding: 0;
 }
 body {
-  max-width: 1280px;
+  max-width: 1440px;
   margin: 0 auto;
+  box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
+}
+.text-gradient {
+  background: linear-gradient(#f948b2, #8758f1);
+  background-clip: text;
+  color: transparent;
+  position: relative;
+}
+.text-gradient::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 1.5px;
+  left: 1.5px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+  background-clip: text;
+  color: transparent;
+  z-index: -1;
+}
+
+.btn-primary {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: deeppink;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 /* nav section */
@@ -14,7 +44,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 0;
+  margin: 20px 100px;
 }
 .nav-content,
 .nav-icon {
@@ -62,4 +92,57 @@ body {
 }
 .nav-menu .follow-link i {
   font-size: 1.5rem;
+}
+
+/* banner section */
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  box-shadow: 0 10px 20px 5px rgb(252, 243, 244) inset;
+  margin-bottom: 50px;
+}
+.banner-bg {
+  background-image: url("./images/banner-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  display: grid;
+  align-items: center;
+}
+.banner-content {
+  margin-left: 100px;
+}
+.banner-content h3 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+.banner-content h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.banner-content p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(60, 53, 79, 0.904);
+  margin-bottom: 10px;
+}
+.banner-content p i {
+  width: 20px;
+}
+.banner-btn {
+  margin-top: 24px;
+}
+.go-rogue-btn {
+  background-color: deepskyblue;
+  margin-left: 10px;
+}
+.banner-image {
+  margin-right: 100px;
+  padding-top: 10px;
+  text-align: center;
+}
+.banner-image img {
+  width: 100%;
 }
