@@ -27,16 +27,25 @@ body {
   color: transparent;
   z-index: -1;
 }
-
 .btn-primary {
   font-size: 1rem;
   font-weight: 700;
   color: #ffffff;
   background-color: deeppink;
   border: none;
-  padding: 10px 25px;
+  padding: 12px 25px;
   border-radius: 20px;
   cursor: pointer;
+}
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.section-info {
+  font-size: 1.25rem;
+  color: #534c64;
+  margin-bottom: 20px;
 }
 
 /* nav section */
@@ -145,4 +154,30 @@ body {
 }
 .banner-image img {
   width: 100%;
+}
+
+/* gamer section */
+.gamer {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 100px;
+}
+.gamer-image img {
+  width: 100%;
+}
+.gamer-content {
+  margin-left: auto;
+  text-align: right;
+}
+.gamer-content h4 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #3c354f;
+  margin: 10px 0;
+}
+.gamer-content h3 {
+  font-size: 1.25rem;
 }
