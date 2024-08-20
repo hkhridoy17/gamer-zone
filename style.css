@@ -163,7 +163,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-  margin: 20px 100px;
+  margin: 40px 100px;
 }
 .gamer-image img {
   width: 100%;
@@ -180,4 +180,29 @@ body {
 }
 .gamer-content h3 {
   font-size: 1.25rem;
+}
+
+/* online game section */
+.online-game {
+  margin: 40px 100px;
+}
+.online-game .section-content {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.online-game-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.online-game-cards .single-card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.online-game-cards .single-card .card-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #534c64;
 }
