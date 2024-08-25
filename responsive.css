@@ -126,4 +126,14 @@
     margin: 0 auto;
     order: 1;
   }
+
+  /* career section */
+  .career {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+  .career .section-content {
+    margin-left: 0px;
+    margin: 40px 0;
+  }
 }

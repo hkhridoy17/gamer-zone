@@ -262,3 +262,33 @@ body {
   bottom: -5%;
   right: -15%;
 }
+
+/* career section */
+.career {
+  background-color: #f948b2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.career .section-content {
+  margin-left: 100px;
+}
+.career-info {
+  margin: 32px 0;
+}
+.career-info p {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.career-btn button {
+  background-color: white;
+  color: #f948b2;
+}
+.career .image img {
+  width: 100%;
+}
