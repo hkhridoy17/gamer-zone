@@ -91,7 +91,39 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 32px;
   }
+  .online-game-cards .single-card {
+    width: 80%;
+    margin: 0 auto;
+  }
   .online-game-cards .single-card .card-text {
     font-size: 1rem;
+  }
+
+  /* play instant section */
+  .play-instant {
+    margin: 50px 0;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .play-instant .section-content {
+    width: 90%;
+  }
+  .play-instant .image {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  /* play games section */
+  .play-games {
+    margin: 50px 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .play-games .section-content {
+    width: 90%;
+  }
+  .play-games .image {
+    width: 70%;
+    margin: 0 auto;
+    order: 1;
   }
 }
