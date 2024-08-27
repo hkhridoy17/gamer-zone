@@ -292,3 +292,40 @@ body {
 .career .image img {
   width: 100%;
 }
+
+/* subscriber section */
+.subscriber {
+  background-color: rgba(255, 66, 165, 0.2);
+  padding: 50px 100px;
+}
+.subscriber-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.single-subscriber-card {
+  background-color: white;
+  border: 1px solid transparent;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  color: #0b0223;
+}
+.single-subscriber-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.single-subscriber-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 10px;
+}
+.single-subscriber-card:hover {
+  border: 1px solid #f948b2;
+  color: #f948b2;
+}

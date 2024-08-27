@@ -136,4 +136,17 @@
     margin-left: 0px;
     margin: 40px 0;
   }
+
+  /* subscriber section */
+  .subscriber {
+    background-color: rgba(255, 66, 165, 0.2);
+    padding: 50px 0px;
+  }
+  .single-subscriber-card img {
+    width: 40px;
+    height: 40px;
+  }
+  .single-subscriber-card h4 {
+    font-size: 18px;
+  }
 }
